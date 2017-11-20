@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="wrap_content"
+    android:layout_margin="20dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+       <TextView
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:id="@+id/tv_title"
+           android:padding="10dp"
+           android:text="Wings of Fire"
+           android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+           android:textSize="36sp"
+           android:fontFamily="sans-serif-smallcaps" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_author"
+            android:padding="10dp"
+            android:text="A.P.J.Abdul Kalam"
+            android:textSize="24sp"
+            android:fontFamily="monospace"
+            android:textAlignment="center" />
+         <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+             android:id="@+id/tv_publisher"
+             android:padding="10dp"
+             android:fontFamily="monospace"
+             android:textSize="24sp"
+             android:text="Universities Press"
+             android:textAlignment="center" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_code"
+            android:padding="10dp"
+            android:fontFamily="monospace"
+            android:textSize="24sp"
+            android:text="Biographies:2:12:N6"
+            android:textAlignment="center" />
+
+    </LinearLayout>
+
+</android.support.v7.widget.CardView>
